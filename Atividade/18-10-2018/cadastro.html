@@ -1,0 +1,130 @@
+<html>
+	<head>
+	
+	
+		<title>
+			Cadastro
+		</title>
+		
+		<!-- Efeitos de t4ransição http://wime.com.br/2015/08/21/8-efeitos-de-transicao-em-css3-css3-transitions/ -->
+		
+		<Style>
+		
+		@import url('https://fonts.googleapis.com/css?family=Monoton');
+		
+		@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+		
+			body{
+			background:url("Imagens/teste.jpg");
+			
+			}
+			
+			.tx{
+					border: 1px solid #fff;
+					border-radius: 29px;
+					background: transparent;
+					width:300px;
+					height:55px;
+					padding-left:10px;
+					margin-bottom:5%;
+					color:#fff;
+			}
+			
+			.bt{
+					border:none;
+					background: linear-gradient(to right,#000 , #0C578C, #000	);
+					color:#fff;
+					border-radius: 29px;
+					float:right;
+					margin-top:;
+					padding: 10px 20px;
+					font-size:16px;
+					width:319px;
+					height:51px;
+					font-family: 'Hammersmith One', sans-serif;
+				}
+
+				.bt:hover{
+					cursor:pointer;
+					background: linear-gradient(to right,#000 , #0C578C, #000	);
+					-webkit-transform: scale(1.1);
+					-ms-transform: scale(1.1);
+					transform: scale(1.1);
+					
+				}
+				
+				.direita{
+					margin-top: 10%;
+					margin-right: 17%;
+					float: right;
+				}
+				
+				.cor-sexo{
+					color: #fff;
+				}
+				
+				::-webkit-input-placeholder{
+					color:white;
+				}
+				
+				.h1{
+					float: left;
+					font-family: 'Monoton', cursive;
+					font-size: 1.8em;
+					color: #fff;
+					box-shadow: 0 px  2 px  13 px  2 px  rgba ( 100 , 50 , 50 , 0,4 );
+				}
+				
+				.h1:hover{
+					
+				}
+
+				
+		</Style>
+	
+	</head>
+	
+	<body>
+	
+	<div class = "direita">
+	
+		<div>
+			<h1 class = "h1"> <center> Cadastre-se </center></h1> 
+		</div>
+				<form> 
+				
+					<div>
+						<input type="text" name="nome"  id="nome" placeholder="Digite seu Nome" size="30" class="tx"/>
+					</div>
+					
+					<div>
+						<input type="email" id="email" name="email" placeholder="Digite seu Email" class="tx"/>
+					</div>
+					
+					<div>
+						<Input type="number" id="numero" name="numero" min="1" max="100"  placeholder="Digite sua Idade" maxlength="2" class="tx"/>
+					</div>
+							
+					<div>
+						<input type="password" name= "senha"  maxlength="10" placeholder ="Digite sua Senha" class="tx"/>
+					</div>
+						
+					<div class = "cor-sexo"> <center/>
+						<input type="radio" name="sexo" value="fem" > Feminino 
+						<input type="radio" name="sexo" value="masc" > Masculino 
+					</div>
+					
+					<br> <br>
+
+					<div>
+						<input type="submit" value ="C o n c l u i r" class="bt"/>
+					</div>
+
+				</form>
+		
+	</div>
+	
+		</body>
+	
+	
+</html>

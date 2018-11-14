@@ -3,7 +3,7 @@
 body{
 	font-family: Helvetica, sans-serif;
 	margin: 0px;
-	background:url('../Imagens/Background.jpg');
+	background: linear-gradient(to bottom,#000 10%,  #D4D4D4, #D4D4D4, #D4D4D4, #D4D4D4	);
 }
 
 header nav ul{

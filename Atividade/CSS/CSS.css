@@ -82,7 +82,7 @@ p{
 }
 
 .topo .div-tit a{
-	background: linear-gradient(to right,#000 , #D4D4D4,#D4D4D4,#D4D4D4,#D4D4D4,#D4D4D4, #000	);
+	background: linear-gradient(to right,#000 , #C4C4C4,#C4C4C4,#C4C4C4,#C4C4C4,#C4C4C4, #000	);
 	color: #000;
 	margin: 0 auto;    /* esse em conjunto com */
 	display: table;    /* esse, centraliza */
@@ -131,7 +131,7 @@ p{
 
 .body{
 	font-family: Helvetica, sans-serif;
-	background: linear-gradient(to bottom,#000 0,5%,  #D4D4D4, #D4D4D4, #D4D4D4, #D4D4D4 );
+	background: linear-gradient(to bottom,#000 0,5%,  #C4C4C4, #C4C4C4, #C4C4C4, #C4C4C4 );
 }
 
 .margin{

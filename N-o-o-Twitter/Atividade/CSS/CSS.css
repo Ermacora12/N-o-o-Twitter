@@ -1,0 +1,212 @@
+
+
+body{
+	font-family: Helvetica, sans-serif;
+	margin: 0px;
+	background: #000;
+}
+
+header nav ul{
+	list-style: none;
+	margin: auto;
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+header nav ul li{
+	display: inline-block;
+    margin-top: 30px;
+	margin-left: 60px;
+}
+
+.logo-tamanho{
+	width: 70px;
+	
+	
+}
+
+header nav ul li a{
+	margin-left: 40px;
+	display: table;
+	font-size: 22px;
+	color: #fff;
+	text-decoration: none;
+	padding-right: 80px;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+	color: #FFF;
+}
+
+header nav ul li img{
+	width: 60px;
+	padding-right: 130px;
+}
+
+.centralizando{
+	width:100%;
+    max-width:100%;
+    height:100vh;
+    background:url('../Imagens/imgteste2.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+	overflow:hidden;
+}
+
+
+.corpo{
+	width:100%;
+}
+
+p{
+	color: #ffffff;
+	
+}
+
+
+.topo .div-tit{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);  /*centralizando*/
+}
+
+.topo .div-tit h1{
+	font-size: 4em;
+	color: #fff;
+	text-align: center;
+}
+
+.topo .div-tit a{
+	background: linear-gradient(to right,#000 , #D4D4D4,#D4D4D4,#D4D4D4,#D4D4D4,#D4D4D4, #000	);
+	color: #000;
+	margin: 0 auto;    /* esse em conjunto com */
+	display: table;    /* esse, centraliza */
+	padding: 8px 28px;
+	font-size: 1.6em;
+	text-decoration: none;
+	border-radius: 15px;  /* arredonda as bordas */ 
+	font-weight: 700;  /* negrito */
+}
+
+.topo .div-tit a:hover{
+	background: linear-gradient(to right,#000 , #E1CB23,#E1CB23,#E1CB23,#E1CB23,#E1CB23, #000	);
+	color: #000;
+	/* text-transform: uppercase;  fonte maiuscula */ 
+}
+
+.img-nova{ 
+	width: 40px;
+	height: 40px;
+	
+}
+
+.header-site{
+	background-image:url(paisagem5.jpg);
+	background-position: center-top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+.content-site{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.corpo{
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+	
+}
+
+.body{
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(to bottom,#000 0,5%,  #D4D4D4, #D4D4D4, #D4D4D4, #D4D4D4 );
+}
+
+.margin{
+	padding-top: 100px;
+	
+}
+
+.textos{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding-top: 60px;
+	color: #000;
+	text-align: justify;
+	
+}
+
+.fundo{
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 100px;
+	background: #EFEFEF;
+	padding: 50px;
+	box-shadow: 0px 2px 50px 2px rgba(100, 100, 50, 0.4);
+}
+
+.teste{
+	float: right;
+}
+
+
+/* parte 2  */
+
+
+
+
+.parte2{
+	width:100%;
+    height:500px;
+    background:url('../Imagens/jose-viado1.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+	overflow:hidden;
+}
+
+
+.fundo2{
+	margin-top: 0px;
+	margin-right: 150px;
+	margin-left: 150px;
+	background: #EFEFEF;
+	padding: 50px;
+	box-shadow: 0px 2px 50px 2px rgba(100, 100, 100, 100);
+}
+
+.ntc{
+	display: inline-block;
+	margin: 60px;
+	box-shadow: 0px 2px 50px 2px rgba(100, 100, 100, 100);
+
+}
+
+.ntc a:hover{
+	box-shadow: 0px 2px 50px 2px rgba(000, 000, 000, 000);
+	
+}
+
+.img-noticias{
+	width: 300px;
+	height: 200px;
+	
+}
+
+
+
+
+
+

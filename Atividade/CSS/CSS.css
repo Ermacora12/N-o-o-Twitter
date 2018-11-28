@@ -18,7 +18,7 @@ header nav ul{
 header nav ul li{
 	display: inline-block;
     margin-top: 30px;
-	margin-left: 60px;
+	margin-left: 90px;
 }
 
 .logo-tamanho{
@@ -94,7 +94,7 @@ p{
 }
 
 .topo .div-tit a:hover{
-	background: linear-gradient(to right,#000 , #E1CB23,#E1CB23,#E1CB23,#E1CB23,#E1CB23, #000	);
+	background: linear-gradient(to right,#000 , #717171,#717171,#717171,#717171,#717171, #000	);
 	color: #000;
 	/* text-transform: uppercase;  fonte maiuscula */ 
 }
@@ -178,7 +178,7 @@ p{
 
 .parte2{
 	width:100%;
-    height:720px;
+    height:760px;
     background:url('../Imagens/jose-viado1.jpg');
     background-size:cover;
     background-position:center center;
@@ -198,7 +198,7 @@ p{
 
 .ntc{
 	display: inline-block;
-	margin: 60px;
+	margin: 95px;
 	padding: 7px;
 	border: 2px solid #000;
 	background: #272727;

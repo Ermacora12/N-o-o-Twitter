@@ -18,7 +18,7 @@ header nav ul{
 header nav ul li{
 	display: inline-block;
     margin-top: 30px;
-	margin-left: 90px;
+	margin-left: 50px;
 }
 
 .logo-tamanho{
@@ -277,9 +277,11 @@ h4{
 
 
 .contato{
-	padding-top: 100px;
+	padding-top: 140px;
 	margin: auto;
 	display: table;
+	font-size: 3em;
+	font-family: Calibri Light;
 	
 }
 
@@ -297,8 +299,10 @@ h4{
 }
 
 .form{
-	margin: 10px;
+	margin: 20px;
 }
+
+
 
 fieldset {
     border: 0;
@@ -309,14 +313,9 @@ body, input, select, textarea, button {
     font-size: 1em;
 }
 
-.grupo:before, .grupo:after {
-    content: " ";
-    display: table;
-}
 
-.grupo:after {
-    clear: both;
-}
+
+
 
 .campo {
     margin-bottom: 1em;
@@ -328,10 +327,7 @@ body, input, select, textarea, button {
     display: block;
 }
 
-fieldset.grupo .campo {
-    float:  left;
-    margin-right: 1em;
-}
+
 
 .campo input[type="text"],
 .campo input[type="email"],
@@ -382,16 +378,29 @@ fieldset.grupo .campo {
 
 .alinhando-cont{
 	float: left;
-	margin-left: 250px;
+	margin-left: 380px;
 	margin-top: 50px;
 }
 
 .alinhando-end{
 	float: right;
-	margin-right: 250px;
+	margin-right: 380px;
 	margin-top: 50px;
 }
 
+/* Rodapé */
+
+footer{
+	background-color: #fff;
+	text-align:center;
+	padding: 30px;
+	border-radius: 0 0 30px 30px;
+	border-top: 3px solid pink;
+}
+
+.teste-sec{
+
+}
 
 
 

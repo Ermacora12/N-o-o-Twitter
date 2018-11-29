@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="CSS/CSS.css">
+	
+		<title> Timeline </title>
+
+		<Style>
+		
+			body{
+				font-family: Helvetica, sans-serif;
+				margin: 0px;
+				background: #000;
+			}
+
+			header nav ul{
+				list-style: none;
+				margin: auto;
+				position: absolute;
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+
+
+			header nav ul li{
+				display: inline-block;
+				margin-top: 30px;
+				margin-left: 90px;
+			}
+
+			.logo-tamanho{
+				width: 50px;
+				
+				
+			}
+
+			header nav ul li a{
+				margin-left: 40px;
+				display: table;
+				font-size: 22px;
+				color: #fff;
+				text-decoration: none;
+				padding-right: 80px;
+			}
+
+			header nav ul li a:hover{
+				text-decoration: underline;
+				color: #FFF;
+			}
+
+			header nav ul li img{
+				width: 60px;
+				padding-right: 130px;
+			}
+
+			.centralizando{
+				width:100%;
+				max-width:100%;
+				height:16vh;
+				background:url('Imagens/degrade-css-150x1501.jpg');
+				background-size:cover;
+				background-position:center center;
+				background-attachment: fixed;
+				overflow:hidden;
+				position:fixed;
+			}
+
+
+			.corpo{
+				width:100%;
+			}
+
+			p{
+				color: #ffffff;
+				
+			}
+
+
+			.topo .div-tit{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);  /*centralizando*/
+			}
+
+			.topo .div-tit h1{
+				font-size: 4em;
+				color: #fff;
+				text-align: center;
+			}
+
+			.topo .div-tit a{
+				background: linear-gradient(to right,#000 , #D4D4D4,#D4D4D4,#D4D4D4,#D4D4D4,#D4D4D4, #000	);
+				color: #000;
+				margin: 0 auto;    /* esse em conjunto com */
+				display: table;    /* esse, centraliza */
+				padding: 8px 28px;
+				font-size: 1.6em;
+				text-decoration: none;
+				border-radius: 15px;  /* arredonda as bordas */ 
+				font-weight: 700;  /* negrito */
+			}
+
+			.topo .div-tit a:hover{
+				background: linear-gradient(to right,#000 , #E1CB23,#E1CB23,#E1CB23,#E1CB23,#E1CB23, #000	);
+				color: #000;
+				/* text-transform: uppercase;  fonte maiuscula */ 
+			}
+
+			.img-nova{ 
+				width: 40px;
+				height: 40px;
+				
+			}
+
+			.header-site{
+				background-image:url(paisagem5.jpg);
+				background-position: center-top;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				color: #ffffff;
+				padding-top: 300px;
+				padding-bottom: 300px;
+			}
+
+			.content-site{
+				padding-top: 200px;
+				padding-bottom: 200px;
+			}
+
+			.corpo{
+				margin-top: 200px;
+				margin-left: 100px;
+				margin-right: 100px;
+
+				
+			}
+
+			.body{
+				font-family: Helvetica, sans-serif;
+				background: linear-gradient(to bottom,#000 0,5%,  #C4C4C4,#C4C4C4,#C4C4C4,#C4C4C4 );
+			}
+
+			.margin{
+				padding-top: 200px;
+				
+			}
+
+			.textos{
+				font-family: Helvetica, sans-serif;
+				font-size: 4.0em;
+				padding-top:px;
+				color: #000;
+				text-align: justify;
+				
+			}
+
+			.fundo{
+				margin-right: 200px;
+				margin-left: 200px;
+				background: #EFEFEF;
+				padding: 70px;
+				box-shadow: 0px 2px 50px 2px rgba(100, 100, 50, 0.4);
+			}
+
+			.nome:hover{
+				cursor:pointer;
+
+
+			}
+
+			.img-noticias{
+				
+				margin-left:200px;
+			}
+
+			.icon{
+				width:30px;
+				height:30px;
+				margin-left:280px;
+
+			}
+			.icon:hover{
+				cursor:pointer;
+				
+			}
+			
+			.perfil{
+				width:160px;
+				height:160px;
+				border:2px solid #000;
+				border-radius: 100px;
+			
+			}
+			
+			.p{
+			color: black;
+			
+			}
+
+		</Style>
+			
+		
+	</head>
+		
+		<!-- width = largura / height = altura -->
+		<!-- Efeitos - https://css-tricks.com/ -->
+		<!-- Degrade - https://www.maujor.com/tutorial/css3-gradientes-lineares.php -->
+		<!-- TELAS - Home - seguindo - timeline - login - perfil -->
+		<!-- Paleta de Cores - http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF -->
+		<!-- Criar  e personalizar uma Barra de Busca -->
+		<!-- Incrementar o Menu -->
+		<!-- Site das noticias - https://g1.globo.com/economia/tecnologia/ -->
+		
+		<body>
+			
+			<div class = "centralizando">
+				<header>
+					<nav>	
+						<ul> 
+							<li> <img src = "Imagens/TRYALL.png" class = "logo-tamanho"> </li>
+								
+							<li class = "inicio" title="ir para a página Inicial"> <a href = "#"> Perfil</a> </li>
+							
+							<li> <a href = "#" title="ir para a página de Notícias"> Meus amigos </a> </li>
+							
+							<li> <a href = "#" title="ir para a página do Mapa"> Noticias </a> </li>
+							
+							<li class = "outros"> <a href  = "file:///D:/HTML/Twitter/JVG_WEB/Atividade/18-10-2018/Login-top.html?" target="blank" title="ir para a página de Login">Sair</a> </li>
+						</ul>
+					</nav>									
+				</header>
+			</div>
+			 
+			 <P>
+			POSTS 
+			</P>
+			
+			
+				<section>
+					<div class = "body">
+						<div class = "margin">
+							<div class = "fundo">
+							<img src = "Imagens/Davizin.jpg" class = "perfil">
+								<h1> <div class="nome">@Davi Vilar </div> </h1> 
+									<p class = "textos">
+													
+						<div class = "ntc">	
+						
+								<img src = "Imagens/Davi.jpg " width = "450" class = "img-noticias">
+								
+							</div> 
+							
+							<br>
+							
+							<img src = "Imagens/clipart2272513.png" class = "icon"> Curtidas _ 180
+							
+							<img src = "Imagens/comentario.png" class = "icon"> Comentarios _ 200
+
+							
+							
+
+							
+										
+
+									<hr>
+									
+															<div class = "ntc">	
+						
+								<img src = "Imagens/nova_publicacao.jpg " width = "450" class = "img-noticias">
+								
+							</div> 
+							
+							<br>
+							
+							<img src = "Imagens/clipart2272513.png" class = "icon"> Curtidas _ 150
+							
+							<img src = "Imagens/comentario.png" class = "icon"> Comentarios _100
+
+							
+									</p>	
+
+									<hr>
+									<br>
+															<div class = "ntc">	
+						
+						<center>
+						
+							<p class="p">
+							Que seus sorrisos pesem mais do que as lágrimas. <br>
+							Que você tropece em milhares de sonhos prontos pra serem realizados. <br>
+							Que seus olhos sempre encontrem motivos pra brilhar.<br>
+							E que Deus afaste de você as más pessoas e suas más intenções. <br>
+							Que nada te roube a leveza, a doçura, o querer bem. <br>
+							Que sua inspiração jamais acabe. <br>
+							E que a vida te jogue na cara mil motivos pra ser feliz. <br>
+
+							</p>
+								
+						</center>		
+								
+							</div> 
+							
+							<br>
+							
+							<img src = "Imagens/clipart2272513.png" class = "icon"> Curtidas _ 130
+							
+							<img src = "Imagens/comentario.png" class = "icon"> Comentarios _ 90
+
+							
+									</p>	
+
+									<hr>
+									<br>
+															<div class = "ntc">	
+						
+								<img src = "Imagens/esperanca.jpg " width = "450" class = "img-noticias">
+								
+							</div> 
+							
+							<br>
+							
+							<img src = "Imagens/clipart2272513.png" class = "icon"> Curtidas _ 199
+							
+							<img src = "Imagens/comentario.png" class = "icon"> Comentarios _ 100
+
+							
+									</p>	
+
+									<hr>
+									
+															<div class = "ntc">	
+						
+								<img src = "Imagens/ultima.jpg " width = "450" class = "img-noticias">
+								
+							</div> 
+							
+							<br>
+							
+							<img src = "Imagens/clipart2272513.png" class = "icon">Curtidas 101
+							
+							<img src = "Imagens/comentario.png" class = "icon"> Comentarios 60
+
+							
+									</p>	
+
+									<hr>
+							
+									
+									
+					
+				</section>

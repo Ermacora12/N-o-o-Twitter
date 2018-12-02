@@ -3,7 +3,7 @@
 body{
 	font-family: Helvetica, sans-serif;
 	margin: 0px;
-	background: linear-gradient(to bottom,#000 10%,  #D4D4D4, #D4D4D4, #D4D4D4, #D4D4D4	);
+	background: #000;
 }
 
 header nav ul{
@@ -115,8 +115,40 @@ p{
 	padding-bottom: 200px;
 }
 
+.corpo{
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
 
+	
+}
 
+.body{
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(to bottom,#000 0,5%,  #D4D4D4, #D4D4D4, #D4D4D4, #D4D4D4	);
+}
+
+.margin{
+	padding-top: 100px;
+	
+}
+
+.textos{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding-top: 60px;
+	color: #000;
+	
+}
+
+.fundo{
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 100px;
+	background: #EFEFEF;
+	padding: 50px;
+	box-shadow: 0px 2px 50px 2px rgba(100, 100, 50, 0.4);
+}
 
 
 

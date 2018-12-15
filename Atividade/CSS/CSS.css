@@ -3,7 +3,7 @@
 body{
 	font-family: Helvetica, sans-serif;
 	margin: 0px;
-	background: #000;
+	background: #C4C4C4;
 }
 
 header nav ul{
@@ -273,6 +273,21 @@ h4{
 }
 
 
+/* Parte 3 */
+
+
+.contato{
+	padding-top: 50px;
+	margin: auto;
+	display: table;
+	
+}
+
+.endereco{
+	padding-top: 50px;
+	margin: auto;
+	display: table;
+}
 
 
 

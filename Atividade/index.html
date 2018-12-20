@@ -127,15 +127,88 @@
 				<!-- Terceira parte -->
 				
 				<section>
-					<div class = "alinhando">
-						<div> 
-							<h1 class = "contato"> Contato </h1>
-						</div>
+					<div> 
+						<h1 class = "contato"> Contato </h1>
+					</div>
+					
+						<div class = "alinhando-cont">
+								<div class = "form">
+									<form action="#" method="post">
+										<fieldset>
+											<fieldset class="grupo">
+												<div class="campo">
+													<label for="nome">Nome</label>
+													<input type="text" id="nome" name="nome" style="width: 10em" value="">
+												</div>
+												<div class="campo">
+													<label for="snome">Sobrenome</label>
+													<input type="text" id="snome" name="snome" style="width: 10em" value="">
+												</div>
+											</fieldset>
+											
+											<div class="campo">
+												<label for="telefone">Telefone</label>
+												<input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+											</div>
+											
+											<div class="campo">
+												<label for="email">E-mail</label>
+												<input type="text" id="email" name="email" style="width: 20em" value="">
+											</div>
+
+											<div class="campo">
+												<label for="mensagem">Mensagem</label>
+												<textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+											</div>
+
+											<button type="submit" name="submit" class = "botao">Enviar</button>
+										</fieldset>
+									</form>
+								</div>
+						</div>	
 						
-						<div>
-							<h1 class = "endereco"> Endereço </h1>
-						</div>
-					</div>	
+						<div class = "alinhando-end">
+								<div class = "form">
+									<form action="#" method="post">
+										<fieldset>
+											<fieldset class="grupo">
+												<div class="campo">
+													<label for="endereco">Endereço</label>
+													<input type="text" id="endereco" name="endereco" style="width: 20em" value="">
+												</div>
+											</fieldset>
+											
+												<div class="campo">
+													<label for="Cep">CEP</label>
+													<input type="text" id="Cep" name="Cep" style="width: 10em" value="">
+												</div>
+												
+												<div class="campo">
+													<label for="email">E-mail</label>
+													<input type="text" id="email" name="email" style="width: 20em" value="">
+												</div>
+
+											<fieldset class="grupo">
+												<div class="campo">
+													<label for="cidade">Cidade</label>
+													<input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+												</div>
+												<div class="campo">
+													<label for="estado">Estado</label>
+													<select name="estado" id="estado">
+														<option value="">--</option>
+														<option value="PR">PR</option>
+														<option value="PR">SP</option>
+														<option value="PR">RJ</option>
+														<option value="PR">MG</option>
+														<option value="PR">PE</option>
+														<option value="PR">DF</option>
+														<option value="PR">AC</option>
+													</select>
+												</div>
+											</fieldset>
+										</fieldset>
+						</div>	
 				</section>
 				
 		</body>
